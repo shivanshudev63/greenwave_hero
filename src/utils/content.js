@@ -90,16 +90,16 @@ export const section1Content = {
   CliffImage,
   HorseImage,
   ShootingStarImage,
-  title: "One-stop access",
-  subtitle: "to decentralized finance",
+  title: "Small Step",
+  subtitle: "Big Impact",
 };
 
 export const section2Content = {
   items: [
-    { counter: 345, subtitle: "Liquidity sources" },
-    { counter: 345, before: "$", after: "B+", subtitle: "Total volume" },
-    { counter: 4.4, after: "M+", subtitle: "Total wallets", decimals: true },
-    { counter: 28.7, after: "M+", subtitle: "Total Trades", decimals: true },
+    { counter: 0, after: "%", subtitle: "Platform fee" },
+    { counter: 345,  subtitle: "No. of Campaigns" },
+    { counter: 96,  after: "L+", subtitle: "Donors" },
+    { counter: 6, after: "L+", subtitle: "Fundraisers" },
   ],
 };
 

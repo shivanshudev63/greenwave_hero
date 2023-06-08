@@ -78,29 +78,22 @@ const Navbar = () => {
               flexWrap="wrap"
             >
               <LinkButton>
-                <Typography variant="body2">Products</Typography>
-                <KeyboardArrowDownIcon fontSize="small" />
+                <Typography variant="body2">Ongoing Campaigns</Typography>
               </LinkButton>
 
               <LinkButton>
-                <Typography variant="body2">Developers</Typography>
-                <KeyboardArrowDownIcon fontSize="small" />
-              </LinkButton>
-
-              <LinkButton>
-                <Typography variant="body2">Governance</Typography>
-                <KeyboardArrowDownIcon fontSize="small" />
+                <Typography variant="body2">Past Campaigns</Typography>
               </LinkButton>
 
               <LinkButton>
                 <Typography variant="body2">About</Typography>
-                <KeyboardArrowDownIcon fontSize="small" />
               </LinkButton>
 
-              <LinkButton spacing={0.5}>
-                <Typography variant="body2">Blog</Typography>
-                <CallMadeIcon sx={{ fontSize: 12 }} />
+              <LinkButton>
+                <Typography variant="body2">Contact us</Typography>
               </LinkButton>
+
+              
             </Stack>
           )}
 
