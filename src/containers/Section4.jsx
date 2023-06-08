@@ -18,13 +18,13 @@ const Section4 = () => {
           <Stack spacing={2} sx={{ maxWidth: 480 }}>
             <Title variant={{ xs: "h3", md: "h2" }}>{top.title}</Title>
 
-            <Typography variant="body2" color="text.secondary" sx={{ pb: 2 }}>
+            <Typography
+              variant="body2"
+              color="text.secondary"
+              sx={{ pb: 2, lineHeight: 1.5 }}
+            >
               {top.subtitle}
             </Typography>
-
-            <OutlinedButton arrow fit>
-              Swap
-            </OutlinedButton>
           </Stack>
         </Grid>
 
@@ -80,14 +80,10 @@ const Section4 = () => {
             <Typography
               variant="body2"
               color="text.secondary"
-              sx={{ pb: 2, minHeight: 70 }}
+              sx={{ pb: 2, minHeight: 70, lineHeight: 1.5 }}
             >
               {bottom.TABS[tabValue].subtitle}
             </Typography>
-
-            <OutlinedButton arrow fit>
-              Learn more
-            </OutlinedButton>
           </Stack>
         </Grid>
       </Grid>
