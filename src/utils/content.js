@@ -90,72 +90,60 @@ export const section1Content = {
   CliffImage,
   HorseImage,
   ShootingStarImage,
-  title: "One-stop access",
-  subtitle: "to decentralized finance",
+  title: "Small Step",
+  subtitle: "Big Impact",
 };
 
 export const section2Content = {
   items: [
-    { counter: 345, subtitle: "Liquidity sources" },
-    { counter: 345, before: "$", after: "B+", subtitle: "Total volume" },
-    { counter: 4.4, after: "M+", subtitle: "Total wallets", decimals: true },
-    { counter: 28.7, after: "M+", subtitle: "Total Trades", decimals: true },
+    { counter: 0, after: "%", subtitle: "Platform fee" },
+    { counter: 345,  subtitle: "No. of Campaigns" },
+    { counter: 96,  after: "L+", subtitle: "Donors" },
+    { counter: 6, after: "L+", subtitle: "Fundraisers" },
   ],
 };
 
 export const section3Content = {
-  title: "Optimize your trades across hundreds of DEXes on multiple networks",
-  ITEMS: [
-    { logo: EthImg, name: "Ethereum" },
-    { logo: BscImg, name: "BNB Chain" },
-    { logo: PolygonImg, name: "Polygon" },
-    { logo: OptimismImg, name: "Optimism" },
-    { logo: GnosisImg, name: "Gnosis" },
-    { logo: AvalancheImg, name: "Avalanche" },
-    { logo: ArbitrumImg, name: "Arbitrum" },
-    { logo: FantomImg, name: "Fantom" },
-    { logo: KlaytnImg, name: "Klaytn" },
-    { logo: AuroraImg, name: "Aurora" },
-  ],
+  title: "Stand with Active Communities Impacted by Climate Chaos",
 };
 
 export const section4Content = {
   top: {
-    title: "Never-ending liquidity",
+    title: "About us",
     subtitle:
-      "1inch instantly analyzes thousands of quotes and fees across multiple DEXes to provide users with the best rates.",
+      "At GreenWave, we are dedicated to providing assistance to vulnerable communities affected by climatic and ecosystem changes. Through our crowd funding platform, we connect compassionate individuals with projects that address the challenges posed by these shifts. Our focus extends beyond immediate relief efforts, emphasizing sustainable practices, ecosystem restoration, and community empowerment. Join us in fostering resilience, restoring balance, and creating a sustainable future for all.",
     image: NewsImg,
   },
   bottom: {
-    title: "1inch DeFi Wallet",
+    title: "Why us ?",
     TABS: [
       {
-        name: "Buy",
+        name: "DAO",
         image: Phone1Img,
         subtitle:
-          "Buy crypto with your bank card using our partner fiat gateway providers.",
+          "Our crowd funding project distinguishes itself by deploying a decentralized application on the blockchain, operating as a Decentralized Autonomous Organization (DAO). This innovative approach ensures transparency, security, and immutability in the allocation and utilization of funds. By leveraging blockchain technology, we provide a trustless and auditable platform where every transaction and decision is recorded and verified by the community.",
       },
       {
-        name: "Store",
+        name: "Investor Participation",
         image: Phone3Img,
         subtitle:
-          "Your crypto is protected with the most sophisticated security measures.",
+          "Unlike traditional crowdfunding platforms, our project empowers investors to have a say in the selection of campaigns and projects to support. Through our DAO structure, investors become active participants in decision-making processes, allowing them to contribute to the direction and impact of our initiatives. This inclusive approach ensures that the community's collective wisdom guides the allocation of resources and supports projects aligned with their values and priorities.",
       },
       {
-        name: "Transfer",
+        name: "User-Friendly Experience",
         image: Phone5Img,
-        subtitle: "Transfer crypto in multiple blockchain networks.",
+        subtitle: "We prioritize user convenience and simplicity, making login and usage easy and intuitive for individuals of all backgrounds. Our platform offers a user-friendly interface, streamlining the crowdfunding experience and allowing supporters to navigate effortlessly through campaigns, contribute securely, and access real-time updates on their impact. We believe that accessibility and user experience are key factors in fostering widespread engagement and participation.",
       },
       {
-        name: "Swap",
+        name: "Enhanced Transparency",
         image: Phone4Img,
-        subtitle: "Swap any amount of tokens at the best rates.",
+        subtitle: "By operating on the blockchain, we provide an unprecedented level of transparency in the crowdfunding ecosystem. Every transaction, fund allocation, and project update is recorded on the blockchain, ensuring complete visibility for all stakeholders. This transparency fosters trust and accountability, enabling supporters to track the progress and impact of funded campaigns in real-time.",
       },
       {
-        name: "Stake",
+        name: "Simplified Fund Management",
         image: Phone2Img,
         subtitle:
-          "Stake 1INCH to participate in network governance and be eligible for gas costs refunds.",
+          "Our blockchain-based DAO streamlines fund management processes, ensuring efficient and secure transactions. Smart contract technology automates payment disbursements and project milestones, reducing administrative overhead and enhancing the speed and accuracy of financial transactions. This simplification enables more efficient allocation of resources and ensures that funds reach their intended recipients swiftly.",
       },
     ],
   },
