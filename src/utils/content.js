@@ -104,19 +104,7 @@ export const section2Content = {
 };
 
 export const section3Content = {
-  title: "Optimize your trades across hundreds of DEXes on multiple networks",
-  ITEMS: [
-    { logo: EthImg, name: "Ethereum" },
-    { logo: BscImg, name: "BNB Chain" },
-    { logo: PolygonImg, name: "Polygon" },
-    { logo: OptimismImg, name: "Optimism" },
-    { logo: GnosisImg, name: "Gnosis" },
-    { logo: AvalancheImg, name: "Avalanche" },
-    { logo: ArbitrumImg, name: "Arbitrum" },
-    { logo: FantomImg, name: "Fantom" },
-    { logo: KlaytnImg, name: "Klaytn" },
-    { logo: AuroraImg, name: "Aurora" },
-  ],
+  title: "Stand with Active Communities Impacted by Climate Chaos",
 };
 
 export const section4Content = {
