@@ -377,9 +377,9 @@ export const footerContent = {
     { icon: GitHubIcon },
   ],
   copyright: {
-    left: "© 2023 1inch, All Rights Reserved.",
-    center: "ENS: 1inch.eth",
-    right: "BUIDL @ETHNewYork 2019",
+    left: "© 2023 GreenWave, All Rights Reserved.",
+    center: "ENS: GreenWave.eth",
+    right: "BUIDL @SSASS 2023",
   },
 };
 
