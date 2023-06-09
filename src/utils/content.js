@@ -30,10 +30,10 @@ import BannerBgImage from "../assets/images/section5/news-block-background.webp"
 import BannerBgImageMobile from "../assets/images/section5/news-block-background-mobile.webp";
 
 // Section6
-import Sec6Image1 from "../assets/images/section6/aggregation-protocol.webp";
-import Sec6Image2 from "../assets/images/section6/limit-order-protocol.webp";
-import Sec6Image3 from "../assets/images/section6/liquidity-protocol.webp";
-import Sec6Image4 from "../assets/images/section6/earn_1.webp";
+import Sec6Image1 from "../assets/images/section6/narr.jpg";
+import Sec6Image2 from "../assets/images/section6/aff.jpg";
+import Sec6Image3 from "../assets/images/section6/rupa.jpg";
+import Sec6Image4 from "../assets/images/section6/dis.png";
 import Sec6Image5 from "../assets/images/section6/rabbithole.webp";
 
 // Section7
@@ -152,43 +152,47 @@ export const section4Content = {
 export const section5Content = {
   BannerBgImage,
   BannerBgImageMobile,
-  title: "1inch Fusion",
+  title: "Need Funds to Pay For a Cause?",
   subtitle:
-    "The Fusion upgrade makes swaps on 1inch yet more efficient and secure, combining liquidity from the entire crypto market in one place.",
+    "GreenWave’s 0% Platform fees ensures maximum funds for you.",
+    
 };
 
 export const section6Content = {
-  title: "1inch products",
+  title: "Recently Completed Campaigns",
   ITEMS: [
     {
-      title: "Aggregation Protocol",
+      title: "Narmada Bachao Andolan",
       subtitle:
-        "Liquidity aggregation from multiple DEXes to ensure the best swap rates.",
+        "Save the Narmada, Preserve Our Precious Lives and Ecosystem.",
       image: Sec6Image1,
     },
     {
-      title: "Limit Order Protocol",
+      title: "Green Sohra Afforestation",
       subtitle:
-        "The most innovative and flexible limit order functionality in DeFi.",
+        "Promoting afforestation and tree plantation in Evergreen Northeast.",
       image: Sec6Image2,
     },
     {
-      title: "Liquidity Protocol",
+      title: "Victorious against all odds.",
       subtitle:
-        "A next-generation AMM that offers capital efficiency to liquidity providers.",
+        " Thanks to your generous donations, Afzal underwent a successful treatment.",
       image: Sec6Image3,
     },
+
+
+    
     {
-      title: "1inch Earn",
+      title: "School For Special Needs",
       subtitle:
-        "A derivative-based product offering liquidity providers attractive APYs.",
+        "Children with Special Needs – Differently abled persons.",
       image: Sec6Image4,
-    },
-    {
-      title: "1inch RabbitHole",
-      subtitle: "A feature that protects MetaMask users from sandwich attacks.",
-      image: Sec6Image5,
-    },
+    }
+    // {
+    //   title: "1inch RabbitHole",
+    //   subtitle: "A feature that protects MetaMask users from sandwich attacks.",
+    //   image: Sec6Image5,
+    // },
   ],
 };
 

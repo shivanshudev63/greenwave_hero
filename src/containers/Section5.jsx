@@ -55,8 +55,11 @@ const Section5 = () => {
             <Stack spacing={2} justifyContent="center" sx={{ height: "100%" }}>
               <Title variant={{ xs: "h3", md: "h2" }}>{title}</Title>
 
-              <Typography variant="body2" color="text.secondary" sx={{ pb: 3 }}>
+              <Typography variant="body2" color="text.secondary" sx={{ pb: 0 }}>
                 {subtitle}
+              </Typography>
+              <Typography variant="body2" color="text.secondary" sx={{ pb: 3 }}>
+              नि: शुल्क फंडरेजर शुरू करें
               </Typography>
 
               <OutlinedButton
@@ -65,7 +68,7 @@ const Section5 = () => {
                 fullWidth={isMobile}
                 sx={{ height: 48 }}
               >
-                Learn more
+               Join Us
               </OutlinedButton>
             </Stack>
           </Grid>
